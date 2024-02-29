@@ -1,0 +1,20 @@
+/* :root{
+
+--black-red:#475d4b;
+} */
+*{
+    --black-red:#475d4b;
+}
+.container{
+    border: 1px solid black;
+    /* background-color: red; */
+    background-color: var(--black-red);
+    
+    height: 300px;
+}
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    /* --black-red:#475d4b; */
+    color: var(--black-red);
+}
